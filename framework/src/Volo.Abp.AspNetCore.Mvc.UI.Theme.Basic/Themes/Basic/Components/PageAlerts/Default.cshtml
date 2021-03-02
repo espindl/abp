@@ -9,7 +9,7 @@
                 {
                     <h4>@alertMessage.Title</h4>
                 }
-                @alertMessage.Text
+                @(new HtmlString(alertMessage.Text))
             </abp-alert>
         }
     </div>
